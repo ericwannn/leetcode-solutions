@@ -7,7 +7,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 struct ListNode {
     int val;
     ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
+    ListNode(int x) : val(x), next(nullptr) {}
 };
 
 class Solution {
